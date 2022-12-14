@@ -373,6 +373,10 @@ img {
   /* margin-bottom: 10px; */
 }
 
+.form__field--check {
+  margin-bottom: 20px;
+}
+
 .form__label {
   margin-bottom: 4px;
   text-align: left;
