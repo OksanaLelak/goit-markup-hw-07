@@ -65,17 +65,17 @@
 	display: flex;
 	flex-wrap: wrap;
 	width: 1200px;
+	gap: 30px;
 	/* margin: 0;
 	padding: 0; */
-
-	margin-bottom: calc(-1 + var(--card-set-gap));
-	margin-right: calc(-1 + var(--card-set-gap));
+	// margin-bottom: calc(-1 + var(--card-set-gap));
+	// margin-right: calc(-1 + var(--card-set-gap));
 }
 
 .portfolio-list>.portfolio-item {
-	flex-basis: calc((100% - 90px)/4);
-	margin-bottom: calc(var(--card-set-gap));
-	margin-right: calc(var(--card-set-gap));
+	flex-basis: calc((100% - 60px)/3);
+	// margin-bottom: calc(var(--card-set-gap));
+	// margin-right: calc(var(--card-set-gap));
 }
 
 .portfolio-link {

@@ -9,16 +9,17 @@
 	flex-wrap: wrap;
 	align-items: flex-start;
 	justify-content: center;
-	width: 1200px;
+	width: 1170px;
+	gap: 30px;
 	margin: 0;
 	padding: 0;
-	margin-right: calc(-1 + var(card-set-gap));
+	// margin-right: calc(-1 + var(card-set-gap));
 }
 
 .feature-list>.item {
-	width: 270px;
+	// width: 270px;
 	flex-basis: calc((100% - 90px) / 4);
-	margin-right: var(--card-set-gap);
+	// margin-right: var(--card-set-gap);
 }
 
 .icon-thumb {

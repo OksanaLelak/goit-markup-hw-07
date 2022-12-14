@@ -12,12 +12,13 @@
 	width: 1200px;
 	margin: 0;
 	padding: 0;
-	margin-right: calc(-1 + var(--card-set-gap));
+	gap: 30px;
+	// margin-right: calc(-1 + var(--card-set-gap));
 }
 
 .work-list .work-item {
 	flex-basis: calc((100% - 60px) / 3);
-	margin-right: var(--card-set-gap);
+	// margin-right: var(--card-set-gap);
 }
 
 .addition-thumb {

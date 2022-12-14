@@ -76,7 +76,8 @@ ul {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .container {
@@ -626,17 +627,15 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 1200px;
+  width: 1170px;
+  gap: 30px;
   margin: 0;
   padding: 0;
-  margin-right: calc(-1 + var(card-set-gap));
 }
 
 .feature-list > .item {
-  width: 270px;
   -ms-flex-preferred-size: calc((100% - 90px) / 4);
       flex-basis: calc((100% - 90px) / 4);
-  margin-right: var(--card-set-gap);
 }
 
 .icon-thumb {
@@ -695,13 +694,12 @@ img {
   width: 1200px;
   margin: 0;
   padding: 0;
-  margin-right: calc(-1 + var(--card-set-gap));
+  gap: 30px;
 }
 
 .work-list .work-item {
   -ms-flex-preferred-size: calc((100% - 60px) / 3);
       flex-basis: calc((100% - 60px) / 3);
-  margin-right: var(--card-set-gap);
 }
 
 .addition-thumb {
@@ -770,7 +768,7 @@ img {
   width: 1200px;
   margin: 0;
   padding: 0;
-  margin-right: calc(-1 + var(--card-set-gap));
+  gap: 30px;
 }
 
 .team-list img {
@@ -781,10 +779,8 @@ img {
   background-color: var(--white-text-color);
   -ms-flex-preferred-size: calc((100% - 90px) / 4);
       flex-basis: calc((100% - 90px) / 4);
-  margin-right: var(--card-set-gap);
   padding-top: 0;
   padding-bottom: 30px;
-  width: 270px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border: transparent;
@@ -1191,17 +1187,14 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 1200px;
+  gap: 30px;
   /* margin: 0;
   padding: 0; */
-  margin-bottom: calc(-1 + var(--card-set-gap));
-  margin-right: calc(-1 + var(--card-set-gap));
 }
 
 .portfolio-list > .portfolio-item {
-  -ms-flex-preferred-size: calc((100% - 90px) / 4);
-      flex-basis: calc((100% - 90px) / 4);
-  margin-bottom: calc(var(--card-set-gap));
-  margin-right: calc(var(--card-set-gap));
+  -ms-flex-preferred-size: calc((100% - 60px) / 3);
+      flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-link {
