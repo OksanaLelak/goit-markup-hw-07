@@ -11,3 +11,11 @@
 	--second-accent-background-color: #F5F4FA;
 	--timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+body {
+	/* padding-top: 80px; */
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.03em;
+	background-color: var(--white-background-color);
+	color: var(--title-text-color)
+}

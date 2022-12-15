@@ -59,9 +59,11 @@
 	flex-direction: column;
 	/* margin-bottom: 10px; */
 }
+
 .form__field--check {
 	margin-bottom: 20px;
 }
+
 .form__label {
 	margin-bottom: 4px;
 	text-align: left;
@@ -70,6 +72,7 @@
 	line-height: 1.166;
 	letter-spacing: 0.01em;
 
+	color: var(--primary-text-color);
 	/* position: absolute;
 	top: 0;
 	left: 0; */
@@ -154,21 +157,18 @@
 	}
 }
 
-
-
 .subscribe__conditions {
 	display: flex;
 	align-items: center;
 	margin-bottom: 20px;
 	justify-content: center;
+	margin-top: 20px;
 
 	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color);
 }
-
-
 
 .checkbox__icon {
 	/* display: inline-block; */
@@ -255,4 +255,3 @@
 		color: var(--accent-color);
 	}
 }
-
